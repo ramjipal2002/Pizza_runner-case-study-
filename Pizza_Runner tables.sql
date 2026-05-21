@@ -1,13 +1,4 @@
--- CREATE SCHEMA
-IF NOT EXISTS (
-    SELECT * FROM sys.schemas WHERE name = 'pizza_runner'
-)
-BEGIN
-    EXEC('CREATE SCHEMA pizza_runner');
-END
-GO
-
-
+Create database Pizza_runner
 -- =========================
 -- RUNNERS TABLE
 -- =========================
